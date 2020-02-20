@@ -1,0 +1,18 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Sachin Hegde",
+            "phone": "9123456789",
+            "address": "Infinity Bldg",
+            "membership": "Platinum"
+        },
+        {
+            "id": 2,
+            "name": "Xyz Pqr",
+            "phone": "9123456650",
+            "address": "Infinity Bldg 2",
+            "membership": "Gold"
+        }
+    ]
+}
