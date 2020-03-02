@@ -1,0 +1,11 @@
+<form class="example-form" [formGroup]="fg">
+<mat-form-field class="example-full-width">
+  <mat-label>Email</mat-label>
+  <input matInput formControlName="email">
+  <mat-hint>Errors appear instantly!</mat-hint>
+</mat-form-field>
+
+<button (click)="resetForm()">
+  Reset
+</button>
+</form>

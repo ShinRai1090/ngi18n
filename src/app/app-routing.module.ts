@@ -11,8 +11,12 @@ const routes: Routes = [{
     loadChildren: () => import('./modules/weatherForecast/weather-forecast.module').then(m => m.WeatherForecastModule)
   },
   {
+    path: 'trial',
+    loadChildren: () => import('./modules/trial/trial.module').then(m => m.TrialModule)
+  },
+  {
     path: '',
-    redirectTo: 'customers',
+    redirectTo: 'trial',
     pathMatch: 'full'
   }
 ];
